@@ -1,21 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+const logo ="https://avatars.githubusercontent.com/u/49443133?"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className="name"> 
+          Lenin Fernandes
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Lchris22"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          @Lchris22
         </a>
       </header>
     </div>
